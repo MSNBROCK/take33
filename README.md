@@ -1,20 +1,20 @@
-# Northstar Banking Management System
+# BLOCKROCK Banking Management System
 
-A responsive **college-project banking dashboard simulation** built with plain HTML, CSS and JavaScript. It is designed for GitHub Pages and requires no build step.
+A responsive **BLACK ROCK** built with plain HTML, CSS and JavaScript. It is designed for GitHub Pages and requires build step.
 
 ## Important safety note
-This is a front-end demonstration only. It does **not** connect to a bank, move money, validate UTRs, verify identity documents, create real KYC records, submit IPO applications, or perform real withdrawals. Do not enter real Aadhaar, PAN, voter ID, bank details, or other sensitive information. All transaction and progress states are illustrative.
+
 
 ## Run locally
 1. Download and extract the ZIP.
 2. Open `index.html` in a modern browser.
-3. Sign in using one of the demo accounts below.
+3. Sign in using one of the accounts below.
 
 ## Admin demo login
 - Username: `admin`
 - Password: `ADMIN129`
 
-## Client demo logins
+## Client  logins
 | Client | Client ID | Password |
 |---|---|---|
 | Shreyas | BRCLT-45871293 | SHR129 |
@@ -36,15 +36,15 @@ This is a front-end demonstration only. It does **not** connect to a bank, move 
 - Client login and client dashboard
 - Admin dashboard with all 14 client records
 - Balance, invested, pending, P/L, shares and next allocation cards
-- Simulated withdrawal form with UTR text field, four scroll-gated agreements and dummy KYC fields
+- Simulated withdrawal form with UTR text field, four scroll-gated agreements and KYC fields
 - Illustrative 30-day progress timeline and request history
-- 24-month sample statement view
-- Jio IPO demo order screen (1–6 shares, illustrative ₹1,165–₹1,300 band and 20-month sample lock display)
+- 24-month  statement view
+- Jio IPO  order screen (1–6 shares, illustrative ₹1,165–₹1,300 band and 20-month sample lock display)
 - CSV export of client summary
-- Browser localStorage for demo requests and orders
+- Browser localStorage for  requests and orders
 
 ## Publish on GitHub Pages
-1. Sign in to GitHub and create a new **public** repository, for example `northstar-banking-demo`.
+1. Sign in to GitHub and create a new **public** repository, for example `northstar-banking`.
 2. Extract this ZIP on your computer.
 3. Upload `index.html`, `styles.css`, `clients.js`, `app.js`, and `README.md` to the repository root.
 4. Open repository **Settings → Pages**.
@@ -59,4 +59,3 @@ This is a front-end demonstration only. It does **not** connect to a bank, move 
 - `app.js` — login, dashboards, simulated forms, history and CSV export
 
 ## Security limitation
-This project stores demo data in browser JavaScript and is not suitable for real customer information or financial services. Anyone who can access the source can inspect the demo credentials. A production system needs a secure backend, password hashing, server-side authorization, database controls, audit logs, privacy/security review, and appropriate regulatory/payment integrations.
